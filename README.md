@@ -20,7 +20,7 @@ This project allows users to explore the *Astronomy Picture of the Day* (APOD) f
 
 1. **User Input**: The user enters their date of birth in a date picker input field.
 2. **Fetch APOD**: Upon clicking the "Show APOD" button, the app uses the NASA API to fetch the *Astronomy Picture of the Day* for that specific date.
-3. **Display Result**: The picture, title, and explanation for that day are displayed in a well-structured format.
+3. **Display Result**: The picture, title, and explanation for that day are displayed.
 
 ---
 
