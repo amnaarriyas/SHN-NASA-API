@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #2c5364, #0f2027);
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #app {
+    margin-top: 50px;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input, button {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #result {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  
