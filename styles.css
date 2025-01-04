@@ -1,14 +1,36 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background: linear-gradient(to right, #2c5364, #0f2027);
+    position: relative;
+    background: #3C1071;
     color: white;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
   }
+
+  .silkscreen-regular {
+    font-family: "Silkscreen", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .silkscreen-bold {
+    font-family: "Silkscreen", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: xx-large;
+  }
+  
   
   #app {
     margin-top: 50px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
   }
   
   form {
@@ -24,13 +46,15 @@ body {
   }
   
   button {
-    background-color: #4CAF50;
+    background-color: #e296e9;
     color: white;
     cursor: pointer;
+    border-radius: 20%;
+    padding: 3% 10% 3% 10%;
   }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #9a85e7;
   }
   
   #result {

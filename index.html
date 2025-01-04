@@ -2,17 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,">
   <title>Cosmic Journey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div id="app">
-    <h1>Cosmic Journey</h1>
-    <p>Discover your personalized space diary!</p>
+    <h1 class="silkscreen-bold">Cosmic Journey</h1>
+    <p><i>see the featured part of space on the day you were featured to the world!</i></p>
     <form id="dob-form">
       <label for="dob">Enter your date of birth:</label>
-      <input type="date" id="dob" required>
+      <input type="date" id="dob" required><br>
       <button type="submit">Explore</button>
     </form>
     <div id="result"></div>
