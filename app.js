@@ -28,7 +28,7 @@ function fetchAPOD(date) {
 function displayAPOD(data) {
   if (data.media_type === "image") {
     document.getElementById('result').innerHTML = `
-      <h2>${data.title}</h2>
+      <h2 style=margin-top: 20px;">${data.title}</h2>
       <img src="${data.url}" alt="${data.title}" style="max-width: 100%; border-radius: 30px; margin-top: 20px;">
       <p style=margin-bottom: 20px;">${data.explanation}</p>
     `;
