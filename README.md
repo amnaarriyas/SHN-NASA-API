@@ -1,4 +1,6 @@
-# NASA Birthday APOD
+# Cosmic Journey
+
+https://cosmicjourney-pi.vercel.app/
 
 ## Overview
 
@@ -11,7 +13,6 @@ This project allows users to explore the *Astronomy Picture of the Day* (APOD) f
 - **Astronomy Picture of the Day (APOD)**: Displays the picture of the day based on the user’s birth date.
 - **User-Friendly Interface**: A clean and modern design for a smooth user experience.
 - **Responsive Design**: Optimized for both desktop and mobile devices.
-- **Space-Themed UI**: Beautiful space-themed background and layout for a cosmic feel.
 
 ---
 
@@ -20,7 +21,6 @@ This project allows users to explore the *Astronomy Picture of the Day* (APOD) f
 1. **User Input**: The user enters their date of birth in a date picker input field.
 2. **Fetch APOD**: Upon clicking the "Show APOD" button, the app uses the NASA API to fetch the *Astronomy Picture of the Day* for that specific date.
 3. **Display Result**: The picture, title, and explanation for that day are displayed in a well-structured format.
-4. **Clear Input**: Users can also reset the form using the "Clear" button.
 
 ---
 
